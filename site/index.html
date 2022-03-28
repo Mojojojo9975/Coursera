@@ -1,63 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Media Queries</title>
-<style>
-
-/********** Base styles **********/
-h1 {
-  margin-bottom: 15px;
-}
-
-p {
-  border: 1px solid black;
-  margin-bottom: 15px;
-}
-#p1 {
-  background-color: #A52A2A;
-  width: 300px;
-  height: 300px;
-}
-#p2 {
-  background-color: #DEB887;
-  width: 50px;
-  height: 50px;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  #p1 {
-    width: 80%;
-  }
-  #p2 {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  #p1 {
-    width: 50%;
-  }
-  #p2 {
-    width: 100px;
-    height: 100px;
-  }
-  body {
-    background-color: blue;
-  }
-}
-
-</style>
+  <meta charset="utf-8">
+  <title>Assignment 1</title>
+  <link rel="stylesheet" href="external.css">
 </head>
 <body>
-<h1>Media Queries</h1>
 
-<p id="p1"></p>
-<p id="p2"></p>
+  <h1>Our Menu</h1>
+
+
+  <div id="box">
+    <h3 id="red">Chicken</h3>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend tincidunt est luctus porttitor. Nullam iaculis diam dictum nisi sagittis tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas tincidunt consectetur enim vitae ultrices. Nullam finibus vel elit sed molestie. Sed et finibus justo.
+  </div>
+
+  <div id="box">
+    <h3 id="blue">Beef</h3>
+    Nunc libero mi, fermentum vitae augue eget, eleifend finibus nibh. Mauris eleifend, leo et tempor aliquam, enim sapien ornare ex, imperdiet egestas nulla purus ut elit. Cras sem orci, tempor et nulla vitae, elementum ornare orci. In commodo arcu vitae eros egestas auctor. Donec vel urna fermentum, consequat ex sit amet, vehicula ipsum. Aenean quis mauris quis turpis eleifend accumsan sed porta nulla. Donec faucibus pretium aliquet.
+  </div>
+
+  <div id="box", class="full">
+    <h3 id="green">Sushi</h3>
+    Suspendisse vitae dolor vel tortor mattis luctus non sollicitudin metus. Curabitur consectetur, urna a hendrerit pellentesque, sem orci rhoncus odio, nec fringilla quam enim sed est. Sed sit amet dolor maximus neque porttitor luctus vel rhoncus ipsum. Suspendisse sit amet enim non magna vulputate scelerisque.
+  </div>
+
+
 
 </body>
 </html>

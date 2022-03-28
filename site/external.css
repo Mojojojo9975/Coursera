@@ -1,9 +1,91 @@
-	* {
-  		box-sizing: border-box;
-  		margin: 0;
-  		padding: 0;
-		}
 
-		#box{
-		background-color:grey;
+
+
+
+
+/*---------------Base Styles------------------*/
+
+#box{
+	background-color: gray;
+	position: relative;
+  	}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 35px;
+	width: 100px;
+	text-align: center;
+	border: solid black 2px;
+}
+ h1{
+ 	margin-bottom: 100px;
+ 	text-align: center;
+ }
+
+ div{
+ 	padding:50px;
+ 	height: 335px;
+ 	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: auto;
+ }
+
+ #red{
+ 	background-color: red;
+ }
+
+ #blue{
+ 	background-color: aqua;
+ }
+
+ #green{
+ 	background-color: greenyellow;
+ }
+
+
+ .full{
+ 	
+ }
+
+ 
+/*---------------Desktop----------------------*/
+
+@media(min-width: 992px){
+	div{
+		width: 30%;
+
+		
 	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	div{
+		width:45%;
+		
+	}
+	div.full{
+	
+
+ 	width: 92%;
+
+ }
+}
+
+@media(max-width:767px){
+	div{
+		width: 80%;
+	}
+}
+
+
