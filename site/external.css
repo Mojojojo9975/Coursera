@@ -69,6 +69,7 @@ h3{
 	}
 }
 
+/*---------------Tablet----------------------*/
 @media(min-width: 768px) and (max-width: 991px){
 	div{
 		width:45%;
@@ -81,7 +82,7 @@ h3{
 
  }
 }
-
+/*---------------phone----------------------*/
 @media(max-width:767px){
 	div{
 		width: 80%;
